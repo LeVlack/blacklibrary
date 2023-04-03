@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Black Library</title>
+    <script src="script.js"></script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="..\css\style.css">
@@ -10,39 +11,27 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Icono menu celular-->
-    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
-  
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--JavaScript-->
+    
+ 
   </head>
   <body>
     <header>
       <!--Logo-->
-      <h1 class="logo">Black Library</h1>
+      <h1 class="logo">Black Library Guides</h1>
       
       <!--Menu Navegacion-->
       <nav>
-        <ul class="nav-links">
+        <ul class="nav-links" id="myTopnav">
           <li><a href="#">Home</a></li>
           <li><a href="#">Guias</a></li>
           <li><a href="#">Reviews</a></li>
           <li><a href="#">Sobre Nosotros</a></li>
         </ul>
-        
-        <button class="hamburger">
-          <span class="material-icons">menu</span>
-        </button>
-  
       </nav>  
-      
-      <div class="mobile-menu">
-        <a href="#">Home</a>
-        <a href="#">Guias</a>
-        <a href="#">Reviews</a>
-        <a href="#">Sobre Nosotros</a>
-      </div>
-      
-      
-      
-      <a href="#" style="margin-left: 20px;"><button class="button-login">Login</button></a>
+      <a href="#" style="margin-left: 20px;"><button>Login</button></a>
     </header>
     
     <main>  
@@ -66,7 +55,7 @@
               por coaches y jugadores profesionales tales como: TheViper, keznitDeus, Scruffycookie, tarik, entre otros!. 
               Estas listo para llevar tu habilidad al SIGUIENTE NIVEL? 
             </p>
-            <a href="#"><button class="button-login">Ver guias disponibles</button></a>
+            <a href="guias.html"><button id="openTabButton" class="button">Ver guias disponibles</button></a>
           </div>
           <div class="column-33">
               <img src="..\imagenes\loquitojugando.jpg" width="400" height="500">
@@ -88,7 +77,7 @@
               Nuestros metodos de enseñanza han sido extensamente testeados y comprobados por un gran número de jugadores 
               alrededor del mundo, para asegurarte que alcanzes tu rango/elo/nivel de habilidad deseado. 
               Pero no solo nos creas a nosotros: Échale un vistazo a las reviews que han dejado nuestros clientes satisfechos!</p>
-            <a href="#"><button class="button-rojo">Ver Reviews</button></a>
+            <a href="reviews.html"><button class="button-rojo">Ver Reviews</button></a>
           </div>
         </div>
       </div>
@@ -104,7 +93,7 @@
               lo que Black Library tiene para ofrecer. Es tan facil como crearte una cuenta, y podras comenzar a explorar el repertorio de juegos
               disponible.Haz click en el boton para iniciar esta aventura!         
               </p>
-            <button class="button-verde">Crea tu cuenta</button>
+            <a href="crear.html"></a><button class="button-verde">Crea tu cuenta</button>
           </div>
           <div class="column-33">
             <img src="..\imagenes\jugadorGanando.jpg" width="400" height="500">
@@ -113,9 +102,6 @@
       </div>
    
     </main> 
-  
-  
-    <script src="../js/script.js"></script>
   </body>
   <!--Footer-->
   <footer>
