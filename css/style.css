@@ -121,6 +121,16 @@ a:hover {
   font-family: 'Bebas Neue';
 }
 
+.slogan2{
+  padding-top: 40px;
+  height: 600px;
+  background-image: url('../imagenes/Korps.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+
+
 .slogan{
   padding-top: 40px;
   height: 600px;
