@@ -130,6 +130,33 @@ a:hover {
   background-size: cover;
 
 }
+.slogan2{
+  padding-top: 40px;
+  height: 600px;
+  background-image: url('../imagenes/Korps.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+.slogan3{
+  padding-top: 40px;
+  height: 600px;
+  background-image: url('../imagenes/review.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+.slogan4{
+  padding-top: 40px;
+  height: 600px;
+  background-image: url('../imagenes/Join.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
 
 /* Body Index (zig-zag) */
 .row{
