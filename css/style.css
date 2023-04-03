@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+
+* {
+  box-sizing:border-box;
+  margin-left:0;
+  margin-right:0;
+  padding: 0;
+
+}
+
+
+body {
+  background-color:#24252A;
+  color: #fff;
+  width: 100vw;
+}
+
+/*Menu de navegacion*/
+li, a, button {
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+}
+
+header {
+  max-height: 70px;
+  display:flex;
+  justify-content:flex-end;
+  align-items:center;
+  padding:30px 10%;
+}
+
+.nav-links{
+  list-style:none;
+}
+
+.nav-links li {
+  display:inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links li a{
+  transition:all 0.3s ease 0s;
+}
+
+.navlinks li a:hover{
+  color: #0088a9;
+}
+
+.topnav .icon {
+  display: none;
+}
+
+
+
+
+
+
+
+/* Botones */
+button {
+  padding:9px 25px;
+  background-color:#1E90FF;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+}
+
+.button-rojo{
+  padding:9px 25px;
+  background-color:rgba(255, 55, 55, 0.735);
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+}
+
+.button-verde{
+  padding:9px 25px;
+  background-color:MediumSeaGreen;
+  border:none;
+  border-radius: 50px;
+  cursor:pointer;
+  transition:all 0.3s ease 0s;
+}
+
+/* LOGO */
+.logo {
+  font-family:'Courier New', Courier, monospace;
+  margin-right: auto;
+}
+
+/* Links */
+a {
+  color: #fff;
+}
+
+a:hover {
+  color: #ff0;
+}
+
+
+/* Slogan */
+.slogan-title{
+  padding-top: 50px;
+  text-align: center;
+  font-size: 50px;
+  font-family: 'Bebas Neue';
+}
+
+.slogan-body{
+  font-size: 20px;
+  text-align:center;
+  margin-left:150px;
+  margin-right:150px;
+  font-family: 'Bebas Neue';
+}
+
+.slogan{
+  padding-top: 40px;
+  height: 600px;
+  background-image: url('../imagenes/fondoSection.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+}
+
+/* Body Index (zig-zag) */
+.row{
+  max-width: 100%;
+}
+
+
+.container {
+  padding-left: 64px;
+  padding-top:30px;
+  padding-bottom: 64px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both
+}
+
+.column-66 {
+  float: left;
+  width: 66.66666%;
+  padding: 20px;
+}
+
+.column-33 {
+  float: left;
+  width: 33.33333%;
+  padding: 20px;
+}
+
+/* NOTA: Esto hace que la ventana se adapte a resoluciones distintas */
+@media screen and (max-width: 1000px) {
+  .column-66,
+  .column-33 {
+    width: 100%;
+    text-align: center;
+  }
+  img {
+    margin: auto;
+  }
+}
+.large-font {
+  margin-top: 10px;
+  font-size: 48px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.xlarge-font {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 64px;
+  font-family: 'Bebas Neue', cursive;
+}
+
+img {
+  margin-top: 90px;
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+.column-33 img {
+  max-width: 100%;
+}
+
+.texto {
+  font-family: 'Raleway', sans-serif;
+}
+
+/*Footer*/
+footer{
+	position: bottom;
+	bottom: 0;
+	background: black;
+	height: auto;
+	width: 100vw;
+	padding: 40px 0 0 0;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+.footer p{
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+/*social -media*/
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color: #fff;
+    border: 1.1px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.socials a i{
+    font-size: 1.1rem;
+    width: 20px;
+    transition: color .4s ease;
+}
+.socials a:hover i{
+    color: dodgerblue;
+}
+/* copyright*/
+.footer-copyright{
+    background: #000;
+    width: 100vw;
+    padding:0;
+}
+.footer-copyright p{
+    margin-top: 10px;
+    font-size: 14px;
+    word-spacing: 2px;
+    align-items: center;
+    justify-content: center;
+}
