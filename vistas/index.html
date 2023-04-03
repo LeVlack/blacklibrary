@@ -10,11 +10,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!--Icono menu celular-->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
-    <!--JavaScript-->
-    
- 
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  
   </head>
   <body>
     <header>
@@ -23,14 +20,29 @@
       
       <!--Menu Navegacion-->
       <nav>
-        <ul class="nav-links" id="myTopnav">
+        <ul class="nav-links">
           <li><a href="#">Home</a></li>
           <li><a href="#">Guias</a></li>
           <li><a href="#">Reviews</a></li>
           <li><a href="#">Sobre Nosotros</a></li>
         </ul>
+        
+        <button class="hamburger">
+          <span class="material-icons">menu</span>
+        </button>
+  
       </nav>  
-      <a href="#" style="margin-left: 20px;"><button>Login</button></a>
+      
+      <div class="mobile-menu">
+        <a href="#">Home</a>
+        <a href="#">Guias</a>
+        <a href="#">Reviews</a>
+        <a href="#">Sobre Nosotros</a>
+      </div>
+      
+      
+      
+      <a href="#" style="margin-left: 20px;"><button class="button-login">Login</button></a>
     </header>
     
     <main>  
@@ -54,7 +66,7 @@
               por coaches y jugadores profesionales tales como: TheViper, keznitDeus, Scruffycookie, tarik, entre otros!. 
               Estas listo para llevar tu habilidad al SIGUIENTE NIVEL? 
             </p>
-            <a href="#"><button class="button">Ver guias disponibles</button></a>
+            <a href="#"><button class="button-login">Ver guias disponibles</button></a>
           </div>
           <div class="column-33">
               <img src="..\imagenes\loquitojugando.jpg" width="400" height="500">
@@ -101,6 +113,9 @@
       </div>
    
     </main> 
+  
+  
+    <script src="../js/script.js"></script>
   </body>
   <!--Footer-->
   <footer>
