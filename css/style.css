@@ -90,6 +90,17 @@ nav{
 }
 
 /* LOGO */
+.imglogo{
+  padding-top: none;
+  margin-top: 0rem;
+  margin-left:-10px;
+  margin-right:10px;
+  max-height: 50px;
+  max-width: 50px;
+  
+}
+
+
 .logo {
   font-family:'Courier New', Courier, monospace;
   margin-right: auto;
@@ -202,6 +213,9 @@ a:hover {
   .nav-links{
     display: none;
   }
+  .imglogo{
+    margin-top: -20px;
+  }
 }
 
 @media (min-width: 768px) {
@@ -229,6 +243,7 @@ a:hover {
   .xlarge-font{
     text-align: center;
   }
+
 
 }
 
